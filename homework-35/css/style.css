@@ -1,0 +1,27 @@
+.some-text {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.some-text-2 {
+    text-decoration: line-through;
+}
+
+.some-text-3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.some-text-4 {
+    word-spacing: 30px;
+    text-decoration: overline wavy black;
+    text-shadow: 1px 1px 1px #df1edf;
+}
+
+.some-text-5 {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
