@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>homework-41</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <h2>Ваши личные данные</h2>
+        <label class="name">
+          Ваше имя
+          <input class="name__text" type="text" placeholder="Имя" name="name" required />
+        </label>
+        <label class="age">
+          Ваш возраст
+          <input class="age__text"
+            type="number"
+            placeholder="Возраст"
+            name="age"
+            inputmode="numeric"
+            required
+          />
+        </label>
+        <label class="phone">
+          Ваш номер телефона
+          <input class="phone__text"
+            type="tel"
+            placeholder="Номер телефона"
+            name="phone"
+            inputmode="tel"
+            required
+          />
+        </label>
+        <label class="email">
+          Ваша почта
+          <input class="email__text"
+            type="email"
+            placeholder="Почта"
+            name="email"
+            inputmode="email"
+            required
+          />
+        </label>
+        <label class="message">
+          Сообщение
+          <textarea class="message__text" name="message" placeholder="Ваше сообщение"></textarea>
+        </label>
+        <div class="box">
+          <label>
+            <input type="checkbox" class="box-input">
+            Я принимаю правила
+          </label>
+        </div>
+        <button class="button">Отправить</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

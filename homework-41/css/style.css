@@ -1,0 +1,66 @@
+fieldset {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 290px;
+  max-height: 700px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.name,
+.age,
+.phone,
+.email,
+.message {
+  padding: 0 0 5px;
+}
+
+.name__text,
+.age__text,
+.phone__text,
+.email__text,
+.message__text {
+  padding: 0 0 0 10px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+textarea {
+  resize: vertical;
+  border-radius: 5px;
+  width: 200px;
+  max-height: 200px;
+  min-height: 30px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+
+button,
+.box-input {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
