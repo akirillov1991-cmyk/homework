@@ -119,7 +119,7 @@
 .faq::before {
   content: "";
   position: absolute;
-  bottom: 215px;
+  top: 215px;
   z-index: -1;
   width: calc(50% - 250px);
   height: 48px;
@@ -165,3 +165,4 @@ summary::-webkit-details-marker {
 details > p {
   padding: 0 20px 20px;
 }
+
