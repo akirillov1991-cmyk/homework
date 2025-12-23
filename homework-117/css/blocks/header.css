@@ -54,7 +54,7 @@
 }
 
 .header__menu .menu__list {
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-end;
 }
 
@@ -122,6 +122,10 @@
 }
 
 @media (width <= 768px) {
+  .header__menu .menu__list {
+    flex-direction: column;
+  }
+  
   .header__actions {
     gap: 30px;
   }
@@ -150,3 +154,4 @@
 .header__actions-icon {
   stroke: currentColor;
 }
+
