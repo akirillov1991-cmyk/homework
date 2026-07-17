@@ -1,0 +1,30 @@
+.menu__list {
+  display: flex;
+  gap: 24px;
+}
+
+@media (width < 840px) {
+  .menu__list {
+    gap: 15px;
+  }
+}
+
+.menu__item:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.menu__link {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondary-color);
+  transition: color var(--transition-time);
+}
+
+@media (any-hover: hover) {
+  .menu__link:hover {
+    color: var(--accent-color);
+  }
+}
